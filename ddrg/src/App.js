@@ -1,10 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import FirstPage from './pages/FirstPage';
+
 
 function App() {
   return (
-    <div >
-      
+    <div className='app'>
+      <FirstPage/>
     </div>
   );
 }
